@@ -57,7 +57,9 @@ private: // メンバ変数
 	DebugText debugText;	
 
 	/// <summary>
-	/// ゲームシーン用
+	/// ゲームシーン
+	Sprite* sprite1 = nullptr;
+	Sprite* sprite2 = nullptr;
 	/// </summary>
 	Sprite* spriteBG = nullptr;
 	Object3d* object3d = nullptr;
